@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*To align our page ay the corners of web browser */
+body {
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+/*We add  background image in body instead of * universal selector because universal selector will apply that on all the tags */
+#ind {
+    border: 2px solid black;
+    background-color: skyblue;
+    width: 35vw;
+    height: 50vh;
+    margin: 100px;
+    border-radius: 25px;
+    display: inline-block;
+}
+#pak {
+    width: 35vw;
+    height: 50vh;
+    border-radius: 25px;
+    margin: 100px;
+    background-color: green;
+    display: inline-block;
+    border: 2px solid black;
+}
+/*Here we have added two container with id IND and PAK  */
+.ball {
+    width:30px;
+    height:30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+/*In order to make circles we used div tag and later we inducted border radius to 50% so that it look like a circle  */
+section {
+    display: inline-block;
+}
+/* In order to arrange our containers in singe line we used inline block command*/
+h1 {
+    font-size: 100px;
+    font-weight: 500;
+}
+/*changing the font properties */
+span {
+    font-size: 70px;
+    font-weight: 400;
+}
+.button {
+   margin: 25px;
+}
+img {
+    margin-top: 25px;
+}
+/*gave margin to the uppermost logo from the top */
+
+
+
+
+

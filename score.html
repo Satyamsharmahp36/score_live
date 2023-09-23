@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super over</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--Firstly we have linked our css file with html file through link tag-->
+</head>
+<body  align="center">
+     <!--Changed alignment of body tag to center-->
+    <img src=" https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-logo.png" alt="logo" width="180px">
+    <section>
+        <div id="ind" align="center">
+             <!--Making of our first container-->
+           <h1>IND</h1>
+           <div class="score_balls"> 
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+           </div>
+            <!--We made 6 different div elements inside a container div so that later in css we can convert it into
+            inline block , so that it can align all the other 6 div tags in same line-->
+           <span id="ind_score">0</span>
+           <span>/</span>
+           <span id="ind_wicket">0</span>
+            <!--we have inserted data into different span tags with different id so that later we can edit then with JS-->
+        </div>
+
+        <div id="pak"  align="center">
+            <h1>PAK</h1> 
+            <div class="score_balls"> 
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+            </div>
+             <!--Now single div inside this container div will be used to make circles later on in css side -->
+            <span id="pak_score">0</span>
+            <span>/</span>
+            <span id="pak_wicket">0</span>
+         </div>
+    </section>
+    <section>
+        <!--entering into new section-->
+        <div>
+            <img
+                id="bat" 
+                class="button"
+                src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-strike-button.png" alt="button" width="80px">
+            
+                <img class="button"
+                id="reset"
+                src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-reset-button.png" alt="reset" width="80px">
+        </div>
+    </section>
+     <!--IN this particular section tag we have added our logo button images , and also given class and id to then 
+    so that later on it become easy to make them functional---->
+
+  
+   
+</body>
+</html>
+
